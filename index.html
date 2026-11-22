@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fc">
+  <meta name="description" content="예제 데이터로 pandas 전처리를 실습하고 수행평가에 답안을 작성하는 학습 교실">
+  <title>데이터 전처리 학습 교실</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assessment.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="brand" href="#home">
+        <span class="brand-icon" data-icon="layers"></span>
+        <span>데이터 전처리<span class="brand-subtitle">학습 교실</span></span>
+      </a>
+      <nav class="navigation" aria-label="학습 메뉴">
+        <span class="nav-label">학습 메뉴</span>
+        <a href="#home" data-nav="home"><span data-icon="home"></span>학습 홈</a>
+        <a href="#practice" data-nav="practice"><span data-icon="code"></span>실습 학습</a>
+        <a href="#assessment" data-nav="assessment"><span data-icon="clipboard"></span>수행평가</a>
+        <a href="#results" data-nav="results"><span data-icon="chart"></span>학습 결과</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="storage-note"><span class="storage-icon" data-icon="save"></span><div><strong>브라우저 자동 저장</strong><span id="storage-detail">학습 기록과 답안을 저장해요.</span></div></div>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="breadcrumb"><span data-icon="book"></span><span>학습 교실</span><span class="breadcrumb-divider">/</span><strong id="page-label">학습 홈</strong></div>
+        <div class="course-label"><span data-icon="layers"></span>Python · pandas</div>
+      </header>
+      <main id="main" tabindex="-1"></main>
+      <footer class="footer"><span>데이터 전처리 학습 교실</span><span>Python · pandas</span></footer>
+    </div>
+  </div>
+</body>
+</html>
